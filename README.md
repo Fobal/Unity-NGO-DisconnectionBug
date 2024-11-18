@@ -1,7 +1,8 @@
 The server sends a message every 0.2s to all clients and when someone disconnects, the netcode freezes. Error message that I get:
+```
 Error sending message: Unable to queue packet in the transport. Likely caused by send queue size ('Max Send Queue Size') being too small.
 CompleteSend failed with the following error code: -5
-
+```
 The rest of the functions work as intended, cpu and ram are at normal levels, it's just the netcode that gets frozen.
 
 How to replicate:
