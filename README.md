@@ -1,4 +1,4 @@
-Possible bug message:
+The server sends a message every 0.2s to all clients and when someone disconnects, the netcode freezes. Error message that I get:
 Error sending message: Unable to queue packet in the transport. Likely caused by send queue size ('Max Send Queue Size') being too small.
 CompleteSend failed with the following error code: -5
 
